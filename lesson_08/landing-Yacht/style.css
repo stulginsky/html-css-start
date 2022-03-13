@@ -1,0 +1,115 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Montserrat Alternates',
+    sans-serif;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 25rem rgba(2, 2, 2, 0.99);
+}
+
+.h-100 {
+  height: 100vh !important;
+}
+
+.bg-dark {
+  position: relative;
+}
+
+.fogging {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh !important;
+  background-color: rgba(4, 4, 34, 0.5);
+  display: block;
+  z-index: 0;
+}
+
+.cover-text {
+  position: relative;
+}
+
+.btn-primary {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.07rem;
+  width: 17rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+<<<<<<< HEAD
+<<<<<<< f7f96ce6fd53cfc25020b33ec8e5bb1db9829c56
+=======
+=======
+>>>>>>> main
+  z-index: 10;
+}
+
+.text-white-50 {
+  position: relative;
+<<<<<<< HEAD
+>>>>>>> Additional task for lesson 8 - Blue backdrop for text & button
+=======
+>>>>>>> main
+}
+
+.bg-dark {
+  background-image: url(img/yacht-001.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cover-main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.cover-text {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2.2rem;
+  line-height: 3rem;
+  font-weight: 800;
+  letter-spacing: 0.07rem;
+  margin-bottom: 2rem;
+}
+
+.lead {
+  margin-bottom: 4rem;
+  font-size: 1.2rem;
+  line-height: 2.1rem;
+
+  font-weight: 200;
+  letter-spacing: 0.07rem;
+  max-width: 50rem;
+  padding: 0 0.2rem;
+}
+
+.carousel-item,
+.w-100 {
+  width: 260px;
+}
+
+.cover-main {
+  display: flex;
+  flex-direction: column;
+}

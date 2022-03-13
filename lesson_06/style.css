@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.top-box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+ul {
+    list-style-type: none;
+    height: 48px;
+}
+
+.top-menu {
+    display: flex;
+    box-sizing: border-box;
+    width: inherit;
+    padding-top: 42px;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    box-sizing: border-box;
+}
+
+
+.main-menu-link:hover>a.btn-hover svg path {
+    fill: #254974;
+
+}
+
+.welcom-text-index {
+    padding-top: 108px;
+    flex-grow: 1;
+    /* фоновая картинка  */
+    background-image: url(img/illustration-welcom-text.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+
+.paragraph-welcom-text-index {
+    width: 420px;
+}
+
+.btn-welcom {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    display: inline-block;
+    margin-top: 72px;
+}
+
+.btn-welcom:hover {
+    background: #254974;
+    filter: drop-shadow(4px 6px 10px rgba(7, 5, 138, 0.25));
+}
+
+.what-we-do {
+    padding-top: 64px;
+}
+
+.we-do-list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+}
+
+.we-do-item {
+    width: 359px;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-img {
+    align-self: center;
+    margin-bottom: 24px;
+
+}
+
+.item-title {
+    margin-bottom: 24px;
+}
+
+.card-link {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
+}
+
+
+
+.our-projects {
+    margin-top: 64px;
+    margin-bottom: 112px;
+
+
+}
+
+.our-finished-projects-title {
+    margin-bottom: 32px;
+}
+
+.our-projects-paragraf {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+    width: 75%;
+    margin: 0 auto 64px;
+    m
+}
+
+.project {}
+
+.project-item {
+    position: relative;
+    flex-grow: 1;
+
+}
+
+.project-img {
+    width: 100%;
+}
+
+.project-img-margin {
+    margin-right: 32px;
+}
+
+.project-text-01 {
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 65px;
+    right: 64px;
+}
+
+.project-text-02 {
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+
+.projects-parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.title-1 {
+    font-size: 64px;
+    width: 510px;
+    color: #1F3F68;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    margin-bottom: 32px;
+}
+
+.title-2 {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.title-3 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.title-4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+    letter-spacing: 0.05em;
+
+
+}
+
+
+
+.text-field {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.submit-btn {
+    background: #5A98D0;
+    border: none;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.lets-talk-text {
+    width: 495px;
+}
+
+.lets-talk {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 96px;
+}
+
+.btn-interested {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #5A98D0;
+    /* padding: 15px 80px; */
+    padding-top: 17px;
+    padding-bottom: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: block;
+    align-self: center;
+
+}
+
+.btn-footer {
+    height: 56px;
+    align-self: center;
+}
+
+.btn-interested:hover {
+    background: #254974;
+    filter: drop-shadow(4px 6px 10px rgba(7, 5, 138, 0.25));
+}
+
+.title-3-interested {
+    width: 340px;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.paragraph-interested {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+
+}
+
+.contacts {
+    display: flex;
+    box-sizing: border-box;
+    width: inherit;
+}
+
+.contacts-list {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    box-sizing: border-box;
+    padding-top: 64px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+
+.get-in-touch {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    background: #316099;
+    padding-top: 92px;
+}
+
+hr {
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+}
+
+.copyright {
+    padding-top: 64px;
+
+}
+
+.paragraph-copyright {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+    padding-bottom: 64px;
+}
+
+.contacts-text {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contacts-text:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
